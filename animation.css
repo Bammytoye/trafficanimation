@@ -1,0 +1,460 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.sky{
+    /* position: absolute; */
+    height: 60vh;
+    width: 100%;
+}
+
+.house{
+    width: 100%;
+    position: absolute;
+    margin-top: -330px;
+}
+
+.road{
+    position: absolute;
+    height: 18vh;
+    width: 100%;
+    margin-top: -20px;
+}
+
+.grass{
+    height: 10vh;
+    position: absolute;
+    width: 100%;
+    margin-top: 91px;  
+}
+
+.middleroad{
+    position: absolute;
+    height: 19vh;
+    width: 100%;
+    margin-top: 150px;
+}
+
+.light{
+    position: absolute;
+    width: 100px;
+    margin-left: 200px;
+    margin-top: 37px;
+}
+
+.light1{
+    position: absolute;
+    width: 100px;
+    margin-left: 600px;
+    margin-top: 37px;
+}
+
+.light2{
+    position: absolute;
+    width: 100px;
+    margin-left: 1100px;
+    margin-top: 37px;
+}
+
+.lorry{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    margin-top: 0px;
+    margin-left: -180px;
+    display: flex;
+    animation-name: lorry;
+    animation-duration: 44s;
+    animation-iteration-count: infinite; 
+    /* animation-direction:alternate-reverse; */
+    animation-delay: 1s;  
+    animation-timing-function: ease-in;
+}
+
+@keyframes lorry {
+     0%{
+        left: -10px;
+        
+}
+
+100%{
+        left: 1400px;
+}
+}
+   
+
+.lorry1{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    margin-left: 1400px; 
+    margin-top: 170px;
+    display: flex;
+    animation-name: lorry1;
+    animation-duration: 49s;
+    animation-iteration-count: infinite; 
+    animation-delay: 1s;  
+    animation-timing-function: ease-in;
+}
+
+@keyframes lorry1 {
+     100%{
+        left: -1400px;
+        
+}
+
+0%{
+        left: -10px;
+}
+}
+
+.lorry2{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    margin-left: 1400px;
+    margin-top: -45px;
+    display: flex;
+    animation-name: lorry2;
+    animation-duration: 24s;
+    animation-iteration-count: infinite; 
+    animation-direction:initial;
+    animation-delay: 1s;  
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes lorry2 {
+     100%{
+        left: -1400px;
+        
+}
+
+    0%{
+        left: -10px;
+}
+}
+
+.manmoving{
+    position: absolute;
+    width: 70px;
+    margin-top: -130px;
+    margin-left: 1400px;
+    display: flex;
+    animation-name: manmoving;
+    animation-duration: 24s;
+    animation-iteration-count: infinite; 
+    animation-direction:initial;
+    animation-delay: 4s;  
+    animation-timing-function: ease-in;
+}
+
+@keyframes manmoving {
+     100%{
+        left: -1400px;
+        
+}
+
+    0%{
+        left: -10px;
+}
+}
+
+.sportcar{
+    position: absolute;
+    width: 120px;
+    margin-top: 155px;
+    display: flex;
+    animation-name: sportcar;
+    animation-duration: 4s;
+    animation-iteration-count: infinite; 
+    /* animation-direction:alternate-reverse; */
+    animation-delay: 1s;  
+    animation-timing-function: ease-in;
+}
+
+@keyframes sportcar {
+     0%{
+        left: -10px;
+        
+}
+
+100%{
+        left: 1400px;
+}
+}
+
+.taxi{
+    position: absolute;
+    width: 120px;
+    margin-top: 190px;
+    margin-left: 1400px;
+    display: flex;
+    animation-name: taxi;
+    animation-duration: 14s;
+    animation-iteration-count: infinite; 
+    animation-direction:initial;
+    animation-delay: 4s;  
+    animation-timing-function:ease;
+}
+
+@keyframes taxi {
+     100%{
+        left: -1400px;
+        
+}
+
+    0%{
+        left: -10px;
+}
+}
+
+.taxi2{
+    position: absolute;
+    width: 120px;
+    margin-top: 20px;
+    margin-left: -10px;
+    display: flex;
+    animation-name: sportcar;
+    animation-duration: 4s;
+    animation-iteration-count: infinite; 
+    /* animation-direction:alternate-reverse; */
+    animation-delay: 1s;  
+    animation-timing-function: ease;
+}
+
+@keyframes sportcar {
+     0%{
+        left: -10px;
+        
+}
+
+100%{
+        left: 1400px;
+}
+}
+
+.walking2{
+    position: absolute;
+    width: 70px;
+    margin-top: -120px;
+    margin-left: -50px;
+    display: flex;
+    animation-name: walkin;
+    animation-duration: 64s;
+    animation-iteration-count: infinite; 
+    /* animation-direction:alternate-reverse; */
+    animation-delay: 1s;  
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes walkin {
+     0%{
+        left: -10px;
+        
+}
+
+100%{
+        left: 1400px;
+}
+}
+
+.airplane{
+    position: absolute;
+    width: 120px;
+    margin-top: -360px;
+    margin-left: -60px;
+    display: flex;
+    animation-name: airplane;
+    animation-duration: 28s;
+    animation-iteration-count: infinite; 
+    /* animation-direction:alternate-reverse; */
+    animation-delay: 1s;  
+    animation-timing-function: ease-in;
+}
+
+@keyframes airplane {
+     0%{
+        left: -10px;
+        
+}
+
+100%{
+        left: 1400px;
+}
+}
+
+.airplane1{
+    position: absolute;
+    width: 120px;
+    margin-top: -350px;
+    margin-left: 1400px;
+    display: flex;
+    animation-name: airplane1;
+    animation-duration: 14s;
+    animation-iteration-count: infinite; 
+    animation-direction:initial;
+    animation-delay: 4s;  
+    animation-timing-function:ease;
+}
+
+@keyframes airplane1 {
+     100%{
+        left: -1400px;
+        
+}
+   
+    0%{
+        left: -10px;
+}
+}
+
+.bicycle{
+    position: absolute;
+    width: 100px;
+    margin-top: -120px;
+    display: flex;
+    animation-name: bicycle;
+    animation-duration: 67s;
+    animation-iteration-count: infinite; 
+    /* animation-direction:alternate-reverse; */
+    animation-delay: 1s;  
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes bicycle {
+     0%{
+        left: -10px;
+        
+}
+
+100%{
+        left: 1400px;
+}
+}
+
+.bike{
+    position: absolute;
+    width: 120px;
+    margin-top: -48px;
+    margin-left: 1400px;
+    display: flex;
+    animation-name: bike;
+    animation-duration: 4s;
+    animation-iteration-count: infinite; 
+    animation-direction:initial;
+    animation-delay: 2s;  
+    animation-timing-function:ease;
+}
+
+@keyframes bike {
+     100%{
+        left: -1400px;
+        
+}
+   
+    0%{
+        left: -10px;
+}
+}
+
+.bike1{
+    position: absolute;
+    width: 120px;
+    margin-top: 173px;
+    margin-left: -130px;
+    display: flex;
+    animation-name: bike1;
+    animation-duration: 37s;
+    animation-iteration-count: infinite; 
+    /* animation-direction:alternate-reverse; */
+    animation-delay: 2s;  
+    animation-timing-function: ease-in;
+}
+
+@keyframes bike1 {
+     0%{
+        left: -10px;
+        
+}
+
+100%{
+        left: 1400px;
+}
+}
+
+.car1{
+    position: absolute;
+    width: 100px;
+    margin-top: 200px;
+    margin-left: -40px;
+    display: flex;
+    animation-name: car1;
+    animation-duration: 51s;
+    animation-iteration-count: infinite; 
+    /* animation-direction:alternate-reverse; */
+    animation-delay: 2s;  
+}
+
+@keyframes car1 {
+     0%{
+        left: -10px;
+        
+}
+
+100%{
+        left: 1400px;
+}
+}
+
+.car2{
+    position: absolute;
+    width: 100px;
+    margin-top: 155px;
+    margin-left: 1850px;
+    display: flex;
+    animation-name: car2;
+    animation-duration: 16s;
+    animation-iteration-count: infinite; 
+    animation-direction:initial;
+    animation-delay: 2s;  
+    animation-timing-function:ease;
+}
+
+@keyframes car2 {
+     100%{
+        left: -1400px;
+        
+}
+   
+    0%{
+        left: -10px;
+}
+}
+
+.heli1{
+    position: absolute;
+    width: 120px;
+    margin-top: -300px;
+    margin-left: 1400px;
+    display: flex;
+    animation-name: heli1;
+    animation-duration: 16s;
+    animation-iteration-count: infinite; 
+    animation-direction:initial;
+    animation-delay: 2s;  
+    animation-timing-function:ease;
+}
+
+@keyframes heli1 {
+     100%{
+        left: -1400px;
+        
+}
+   
+    0%{
+        left: -10px;
+}
+}
